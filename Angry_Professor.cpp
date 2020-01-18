@@ -2,20 +2,20 @@
 using namespace std;
 
 int main() {
-    int T;
-    cin >> T;//take input of no. of test cases
+    int a;
+    cin >> a;//take input of no. of test cases
     int x;
-    int N, k, sum;
+    int m, k, count;
     for (int i = 0; i < T; i++) {
-        sum = 0;
-        cin >> N >> k;//take input of number of students and minimum no. of student should be absent
-        for(int i = 0; i < N; i++) {
+        count = 0;
+        cin >> m >> k;//take input of number of students and minimum no. of student should be absent
+        for(int i = 0; i < m; i++) {
             cin >> x;
             if (x <= 0) {
-                sum++;
+                count++;
             }
         }
-        if (sum < k) {
+        if (count < k) {
             cout << "YES" << endl;//yes for class is canceled 
         } else {
             cout << "NO" << endl;//no for not the class is not canceled
