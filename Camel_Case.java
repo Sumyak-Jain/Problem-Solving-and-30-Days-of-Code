@@ -6,7 +6,7 @@ public class CamelCase{
         String line=sc.nextLine();//take input of the string and save it to line
         char[] ch=new char[line.length()];//declare a char array of the size length of the string
         for(int i=0;i<line.length();i++){
-            ch[i]=line.charAt(i);
+            ch[i]=line.charAt(i);//convert string to char array
         }
         for(int i=0;i<line.length();i++){
             
