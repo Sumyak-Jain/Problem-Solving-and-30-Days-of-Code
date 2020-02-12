@@ -4,7 +4,7 @@ public class CamelCase{
         int count=1;//initialize count to 1
         Scanner sc=new Scanner(System.in);
         String line=sc.nextLine();//take input of the string and save it to line
-        char[] ch=new char[line.length()];
+        char[] ch=new char[line.length()];//declare a char array of the size length of the string
         for(int i=0;i<line.length();i++){
             ch[i]=line.charAt(i);
         }
