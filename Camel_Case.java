@@ -9,7 +9,7 @@ public class CamelCase{
             ch[i]=line.charAt(i);//convert string to char array
         }
         for(int i=0;i<line.length();i++){
-            
+            //check when the uppercase letter appear and count++
              if (ch[i] >= 'A' && ch[i] <= 'Z') {
                  count++;
              }
