@@ -11,6 +11,7 @@ void choc(int n,int m,int p)
         output++;
         total_choc=total_choc-p;
         total_choc++;
+      
     }
     cout<<output<<endl;
 }
