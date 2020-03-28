@@ -3,7 +3,7 @@
 int main()
 {
 int t;
-scanf("%d\n",&t);//take number of test cases
+scanf("%d\n",&t);//take  number of test cases
 for(int i=1;i<=t;i++)
 {
 int e;
