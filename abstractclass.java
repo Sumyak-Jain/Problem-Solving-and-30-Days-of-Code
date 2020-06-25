@@ -1,5 +1,4 @@
 import java.util.*;
-
 abstract class Book {
     String title;
     String author;
